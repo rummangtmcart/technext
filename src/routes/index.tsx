@@ -82,7 +82,7 @@ function ArrowLink({ href = "#contact", children, light = false }: { href?: stri
 function Header() {
   const [open, setOpen] = useState(false);
   return <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-md">
-    <div className="section-shell grid h-18 grid-cols-[minmax(0,1fr)_auto] items-center gap-4">
+    <div className="section-shell grid h-18 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 lg:grid-cols-[minmax(0,1fr)_auto_auto]">
       <Logo />
       <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary navigation">
         <div className="group relative py-6">
