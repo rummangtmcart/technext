@@ -1,10 +1,11 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState, type LucideIcon } from "react";
+import { useState } from "react";
 import {
   ArrowRight, BarChart3, Bot, Check, ChevronDown, CircleDot, Compass, Crosshair,
   FileText, GitBranch, Globe2, LayoutTemplate, Lightbulb, LineChart, Mail, Menu,
   MousePointerClick, Search, Send, Sparkles, Target, TrendingUp, Users, Workflow, X,
 } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
